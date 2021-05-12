@@ -1,0 +1,26 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "APIREST",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanmr87/API-REST.git"
+  },
+  "author": "Joan M. Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanmr87/API-REST/issues"
+  },
+  "homepage": "https://github.com/joanmr87/API-REST#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
