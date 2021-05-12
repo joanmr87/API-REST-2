@@ -1,14 +1,10 @@
 const express = require ("express");
-const { PORT } = require("./config");
+const { PORT } = require("./API-REST-2/src/config");
 const app = express();
 
 app.use(express.json());
 
-let id = 2;
-const DB = [
-    {id: 1, name: 'Dante', age: 3},
-    {id: 5, name: 'Astor', age: 10}
-];
+
 
 app.get("/api/users", (req, res) => {
     res.json(DB);
